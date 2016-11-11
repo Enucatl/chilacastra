@@ -1,0 +1,121 @@
+\documentclass[italian,a4paper,10pt]{article}
+\usepackage{babel,verse,url,geometry,multicol}
+\usepackage[usenames]{color}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\frenchspacing
+
+%------------- due ambienti per creare elenchi senza spazi supplementari tra i \item successivi
+\newenvironment{packed_item}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+\newenvironment{subt}{\vspace{-0.5\baselineskip}\small \centering \em}{\em \normalsize \\}
+%
+%------------- impostazioni pacchetto geometry
+%
+%----larghezza del testo
+\geometry{textwidth=.86\paperwidth,
+%
+%----altezza del testo
+textheight=55\baselineskip }
+%
+%------------- ridefinizione simbolo per elenchi puntati: en dash
+\renewcommand{\labelitemi}{\textbf{--}}
+\newcommand{\crusca}{Vocabolario dell'Accademia della Crusca, 1612}
+\title{}
+\date{}
+\begin{document}
+\pagestyle{empty}
+%------------------------------------------------
+\section*{Una ricerca filologica: \emph{Chi la castra la porcella?}}
+\emph{Chi la castra la porcella} è una composizione carnascialesca del 1508,
+di Marchetto Cara (1470--1525 ca.). Il testo, dopo una ricerca di anni, è
+stato ritrovato in un volume\footnote{\emph{I canti carnascialeschi nelle
+fonti musicali del XV e XVI sec.}, Federico Ghisi, 1937, pag. 136--137.} della biblioteca di Storia della Musica
+dell'Università di padova. L'interpretazione rimane a tratti alquanto
+misteriosa, anche perch\'e nel libro non c'è alcun commento. Si dice solo
+che questo è \emph{il canto del castratore di porci}, con l'utile
+riferimento bibliografico agli \emph{11 libri di frottole} di Ottaviano
+Petrucci da Fossombrone, che non è stato possibile rintracciare. \poemtitle[]{Chi la castra la porcella?}
+\begin{subt}
+Marchetto Cara
+\end{subt}
+
+\begin{multicols}{2}
+\begin{verse}[\versewidth]
+\poemlines{5}
+Chi la castra la porcella?\\
+Su, su, za, za, ferri acuti.\\
+Per tagliar siam pronti tutti,\\
+Che bon mastro ognun s'appella.\\!
+
+Chi la castra la porcella?\\
+Conza lavez! Ha! Conza lavez!\\
+Chi la castra la porcella?\\!
+
+Nostre bolze e ben fornite\\
+Possiam star al paragone.\\
+Se di noi bisogno havite\\
+Pianterem nostro pongione,\\
+Poi cum gran discretione\\
+Conzarem vostra padella.\\!
+
+Chi la castra la porcella?\\
+Conza lavez! Ha! Conza lavez!\\
+Chi la castra la porcella?\\!
+
+Vi daremo un bel coperchio\\
+Di lavezi fermo e sodo\\
+Se poi rotto haveti el cerchio\\
+Conzarenlo cum bon modo\\
+Cum inzegno e cum tal chiodo\\
+che quadrato a tua cappella.\\!
+
+\columnbreak
+
+Chi la castra la porcella?\\
+Conza lavez! Ha! Conza lavez!\\
+Chi la castra la porcella?\\!
+
+Horsu, za se gli è dirotto\\
+Testi e altri che s'incapa\\
+Vi metiem senz'altro motto\\
+Quatro ponti in una chiapa\\
+Se per tempo poi se schiapa\\
+Sarem pronti a puntar quella.\\!
+
+Chi la castra la porcella?\\
+Su, su, za, za, ferri acuti\\
+Per tagliar siam pronti tutti\\
+Che bon mastro ognun s'appella.\\!
+
+Chi la castra la porcella?\\
+Conza lavez! Ha! Conzala vez!\\
+Chi la castra la porcella?\\!
+\end{verse}
+\end{multicols}
+
+\section*{Note}
+Si sono rivelate particolarmente preziose alcune ricerche su internet, in particolare grazie al dizionario dell'Accademia della Crusca del 1612\footnote{\url{http://www.accademiadellacrusca.it/Vocabolario_1612.shtml}}. Riportiamo qui i risultati più pertinenti:
+\begin{description}
+\item[Chiappa:]\emph{ s. f. (scherz.)} nel linguaggio dei cacciatori, preda, cattura: \emph{fare una chiappa di selvaggina}.\emph{ s. f. (ant.)} pietra sporgente cui ci si può aggrappare: \emph{montar di chiappa in chiappa} (Dante Inf. XXIV, 33).
+\item[Incappare:] 2 \emph{(ant.)} prendere, acchiappare | \emph{v. intr. [aus. essere]} incorrere, imbattersi in cosa o persona molesta. Per \emph{rincontrarsi}, \emph{rintopparsi}.
+\item[Bolzone:]4 strumento dotato di un punzone usato per macellare i suini mediante un colpo sulla fronte
+\item[Sodo:]Diciamo porre, o mettere in sodo, che vale diliberare, stabilire, fermare. Latin. stabilire, firmare. (\crusca)
+\item[Schiappa:] E schiappare un legno. vale farne schegge. Lat. \emph{in ensulas dividere}. E quando vogliamo mostrare uno esser grasso, e di bonissima fatta, diciamo, \emph{Egli è grasso, ch' egli schiappa}, quasi s' apre, e crepa, e non cape nela pelle, modo basso.
+\end{description}
+Un altro documento riferisce sul carattere scherzoso della composizione:
+\begin{quote}
+ ci sono pure composizioni di carattere popolaresco,  contenenti anche citazioni popolari. A questo proposito ricordiamo \emph{Amerò, non amerò} [\dots] per non parlare di \emph{Chi la castra la porcella}, una sorta di canto carnascialesco zeppo di doppi sensi e di allusioni nemmeno troppo velate.\footnote{\url{www.ertaitalia.it/File/Settembre 2003/Marchetto Cara.doc}}
+\end{quote}
+\end{document}
