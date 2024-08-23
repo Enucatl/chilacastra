@@ -67,4 +67,4 @@ Un altro documento riferisce sul carattere scherzoso della composizione:
 
 [^1]: *I canti carnascialeschi nelle fonti musicali del XV e XVI sec.*, Federico Ghisi, 1937, pag. 136--137.
 [^2]: http://www.accademiadellacrusca.it/Vocabolario_1612.shtml
-[^3]: www.ertaitalia.it/File/Settembre 2003/Marchetto Cara.doc
+[^3]: www.ertaitalia.it/File/Settembre%202003/Marchetto%20Cara.doc
