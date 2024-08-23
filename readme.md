@@ -1,5 +1,14 @@
 # Una ricerca filologica: *Chi la castra la porcella?*
-*[Chi la castra la porcella](https://www.youtube.com/watch?v=tzesf9aAOKE)* è una composizione carnascialesca del 1508, di Marchetto Cara (1470--1525 ca.). Il testo, dopo una ricerca di anni, è stato ritrovato in un volume[^1] della biblioteca di Storia della Musica dell'Università di padova. L'interpretazione rimane a tratti alquanto misteriosa, anche perché nel libro non c'è alcun commento. Si dice solo che questo è *il canto del castratore di porci*, con l'utile riferimento bibliografico agli *11 libri di frottole* di Ottaviano Petrucci da Fossombrone, che non è stato possibile rintracciare.
+*[Chi la castra la porcella](https://www.youtube.com/watch?v=tzesf9aAOKE)* è
+una composizione carnascialesca del 1508, di Marchetto Cara (1470--1525 ca.).
+Il testo, dopo una ricerca di anni, è stato ritrovato in un volume[^1] della
+biblioteca di Storia della Musica dell'Università di padova. L'interpretazione
+rimane a tratti alquanto misteriosa, anche perché nel libro non c'è alcun
+commento. Si dice solo che questo è *il canto del castratore di porci*, con
+l'utile riferimento bibliografico agli [*11 libri di frottole* di Ottaviano
+Petrucci da
+Fossombrone](https://imslp.org/wiki/Frottole%2C_Libro_9_(Petrucci%2C_Ottaviano)),
+libro nono.
 
 
 ## Chi la castra la porcella?
